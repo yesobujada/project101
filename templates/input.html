@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="#8a2be2">
+<form action="./insert" method="post">
+    {% csrf_token%}
+    {{product_Form}}
+    <input type="submit" value="insert">
+</form>
+
+</body>
+</html>
